@@ -15,7 +15,7 @@ app.get('/add/:x/:y', function(req, res) {
 
 });
 
-app.get('/sub:x/:y', function(req, res) {
+app.get('/sub/:x/:y', function(req, res) {
 	var x = Number(req.params.x);
 	var y = Number(req.params.y);
 	var sum = x - y;
